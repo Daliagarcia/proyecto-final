@@ -9891,6 +9891,13 @@ p {
   font-size: 16px;
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -9934,6 +9941,35 @@ footer {
   font-family: "Racing Sans One", cursive;
   font-weight: 700;
   font-size: 30px;
+}
+
+/*.navbar__buttons--secondary{
+  border: 1px solid $Purple;
+  color: $white;
+  background-color: $Purple;
+  font-family: $Roboto;
+  font-weight: $regular;
+  font-size: $medium;
+
+  &:hover{
+    color: $Purple;
+    border: 1px solid $Purple;
+    background-color: $Purple-light;
+  }
+}
+*/
+.navbar__buttons--primary {
+  border: 1px solid #4ca866;
+  color: #FFF;
+  background-color: #4ca866;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.navbar__buttons--primary:hover {
+  color: #4ca866;
+  border: 1px solid #bddfc7;
+  background-color: #bddfc7;
 }
 
 /*# sourceMappingURL=main.css.map */

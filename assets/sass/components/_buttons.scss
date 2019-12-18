@@ -1,0 +1,29 @@
+/*.navbar__buttons--secondary{
+  border: 1px solid $Purple;
+  color: $white;
+  background-color: $Purple;
+  font-family: $Roboto;
+  font-weight: $regular;
+  font-size: $medium;
+
+  &:hover{
+    color: $Purple;
+    border: 1px solid $Purple;
+    background-color: $Purple-light;
+  }
+}
+*/
+.navbar__buttons--primary{
+  border: 1px solid $shiny-shamrock;
+  color: $white;
+  background-color: $shiny-shamrock;
+  font-family: $Roboto;
+  font-weight: $regular;
+  font-size: $medium;
+
+  &:hover{
+    color: $shiny-shamrock;
+    border: 1px solid $pastel-gray;
+    background-color: $pastel-gray;
+  }
+}
