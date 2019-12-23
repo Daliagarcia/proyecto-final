@@ -12,3 +12,25 @@
     background-color: $pastel-gray;
   }
 }
+
+.sectionEntrenamiento__description{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionEntrenamiento__btn{
+  padding: 3rem 7rem;
+  background-color: rgba(64, 71, 83, 1);
+  color: $white;
+  border: none;
+  font-size: 2em;
+  font-family: $Open-sans;
+}
+
+.sectionEntrenamiento__btn:hover{
+background-color: rgba(64, 71, 83, 0.5);
+border: 1px solid $purpura-light;
+box-shadow: -2px 2px 10px black;
+  }
