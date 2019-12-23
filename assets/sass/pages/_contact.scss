@@ -1,0 +1,27 @@
+.sectionContact{
+  background-image: url('../../assets/img/fondo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &--color{
+background: linear-gradient(
+rgba(25, 25, 25, 0.7),
+rgba(0,0,0,0.8)
+),;
+min-height: 100vh;
+  }
+}
+
+.sectionContact__title{
+  color: $white;
+  text-align: center;
+}
+
+.sectionContact__sneaker{
+  fill: $white;
+}
+
+.sectionContact__form{
+  background-color: inherit;
+}

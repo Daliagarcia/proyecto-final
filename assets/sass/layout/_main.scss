@@ -20,6 +20,19 @@ footer i{
 
 footer {
   color: #ffffff;
-  background: $Purple;
+  background: $purpura-light;
   padding: 20px;
+}
+
+.sectionEntrenamiento{
+  background-color: $hielo;
+}
+
+.SectionBlog{
+background-color:$green-light;
+color: $white;
+}
+
+.card-title{
+  color: $black;
 }

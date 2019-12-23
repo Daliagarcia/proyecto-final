@@ -9885,17 +9885,25 @@ h1, h3, h5, p {
   padding: 0;
 }
 
-p {
-  font-family: "Open Sans", sans-serif;
-  color: #000000;
-  font-size: 16px;
-}
-
 h1 {
   font-family: "Roboto", sans-serif;
   color: #000000;
   font-size: 30px;
   font-weight: 700;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+  /*font-size: $medium;*/
+  line-height: 25px;
 }
 
 .carousel-indicators li {
@@ -9920,12 +9928,25 @@ footer i {
 
 footer {
   color: #ffffff;
-  background: #4E0431;
+  background: #7A2177;
   padding: 20px;
 }
 
+.sectionEntrenamiento {
+  background-color: #EEEEEE;
+}
+
+.SectionBlog {
+  background-color: #65A603;
+  color: #FFF;
+}
+
+.card-title {
+  color: #000000;
+}
+
 .navbar {
-  background: #4E0431;
+  background: #7A2177;
 }
 
 .subtitulo {
@@ -9943,33 +9964,87 @@ footer {
   font-size: 30px;
 }
 
-/*.navbar__buttons--secondary{
-  border: 1px solid $Purple;
-  color: $white;
-  background-color: $Purple;
-  font-family: $Roboto;
-  font-weight: $regular;
-  font-size: $medium;
+.HeaderSection__image {
+  -webkit-animation: rotate-scale-up 0.65s linear both;
+  animation: rotate-scale-up 0.65s linear both;
+}
 
-  &:hover{
-    color: $Purple;
-    border: 1px solid $Purple;
-    background-color: $Purple-light;
+@-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+    transform: scale(1) rotateZ(360deg);
   }
 }
-*/
-.navbar__buttons--primary {
+@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+    transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+    transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+.HeaderSection__buttons {
   border: 1px solid #4ca866;
   color: #FFF;
-  background-color: #4ca866;
+  background-color: #65A603;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
-.navbar__buttons--primary:hover {
-  color: #4ca866;
+.HeaderSection__buttons:hover {
+  color: #65A603;
   border: 1px solid #bddfc7;
   background-color: #bddfc7;
+}
+
+.sectionContact {
+  background-image: url("../../assets/img/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sectionContact--color {
+  background: linear-gradient(rgba(25, 25, 25, 0.7), rgba(0, 0, 0, 0.8));
+  min-height: 100vh;
+}
+
+.sectionContact__title {
+  color: #FFF;
+  text-align: center;
+}
+
+.sectionContact__sneaker {
+  fill: #FFF;
+}
+
+.sectionContact__form {
+  background-color: inherit;
+}
+
+.sectionAboutUs__content p {
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mainSection__content--title {
+  font-family: "Racing Sans One", cursive;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */
