@@ -22,7 +22,8 @@
 
 .sectionEntrenamiento__btn{
   padding: 3rem 7rem;
-  background-color: rgba(64, 71, 83, 1);
+  background-color: $green-light;
+  //background-color: rgba(64, 71, 83, 1);
   color: $white;
   border: none;
   font-size: 2em;
@@ -30,7 +31,8 @@
 }
 
 .sectionEntrenamiento__btn:hover{
-background-color: rgba(64, 71, 83, 0.5);
-border: 1px solid $purpura-light;
+  background-color: $white;
+//background-color: rgba(64, 71, 83, 0.5);
+border: 2px solid $green-light;
 box-shadow: -2px 2px 10px black;
   }

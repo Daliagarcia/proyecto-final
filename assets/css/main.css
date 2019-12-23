@@ -9964,39 +9964,40 @@ footer {
   font-size: 30px;
 }
 
-.HeaderSection__image {
+/*.HeaderSection__image{
   -webkit-animation: rotate-scale-up 0.65s linear both;
-  animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
 }
 
 @-webkit-keyframes rotate-scale-up {
   0% {
     -webkit-transform: scale(1) rotateZ(0);
-    transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
   }
   50% {
     -webkit-transform: scale(2) rotateZ(180deg);
-    transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
   }
   100% {
     -webkit-transform: scale(1) rotateZ(360deg);
-    transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
   }
 }
 @keyframes rotate-scale-up {
   0% {
     -webkit-transform: scale(1) rotateZ(0);
-    transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
   }
   50% {
     -webkit-transform: scale(2) rotateZ(180deg);
-    transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
   }
   100% {
     -webkit-transform: scale(1) rotateZ(360deg);
-    transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
   }
 }
+*/
 .HeaderSection__buttons {
   border: 1px solid #4ca866;
   color: #FFF;
@@ -10020,7 +10021,7 @@ footer {
 
 .sectionEntrenamiento__btn {
   padding: 3rem 7rem;
-  background-color: #404753;
+  background-color: #65A603;
   color: #FFF;
   border: none;
   font-size: 2em;
@@ -10028,8 +10029,8 @@ footer {
 }
 
 .sectionEntrenamiento__btn:hover {
-  background-color: rgba(64, 71, 83, 0.5);
-  border: 1px solid #7A2177;
+  background-color: #FFF;
+  border: 2px solid #65A603;
   box-shadow: -2px 2px 10px black;
 }
 
@@ -10053,8 +10054,22 @@ footer {
   fill: #FFF;
 }
 
-.sectionContact__form {
-  background-color: inherit;
+.form-control {
+  background-color: rgba(0, 0, 0, 0.27);
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #FFF !important;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #FFF !important;
+}
+
+::placeholder {
+  color: #FFF !important;
 }
 
 .sectionAboutUs {
@@ -10072,7 +10087,7 @@ footer {
 }
 
 .mainSection__content--title {
-  font-family: "Racing Sans One", cursive;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
 }
