@@ -9924,6 +9924,7 @@ p {
 footer i {
   margin-bottom: 10px;
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 footer {
@@ -10090,6 +10091,11 @@ footer {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 30px;
+}
+
+.mainSection__content--lugares i {
+  margin-right: 10px;
+  color: #65A603;
 }
 
 /*# sourceMappingURL=main.css.map */
