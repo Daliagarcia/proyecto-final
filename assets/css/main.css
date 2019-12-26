@@ -10098,4 +10098,12 @@ footer {
   color: #65A603;
 }
 
+.SectionMainPlantilla {
+  background-color: #EEEEEE;
+}
+
+.SectionMainPlantilla__content {
+  text-align: justify;
+}
+
 /*# sourceMappingURL=main.css.map */
