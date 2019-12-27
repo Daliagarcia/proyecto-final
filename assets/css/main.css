@@ -9893,8 +9893,8 @@ h1 {
 }
 
 h2 {
+  font-size: 1.875rem;
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
   font-weight: 700;
 }
 
@@ -10021,7 +10021,7 @@ footer {
 }
 
 .sectionEntrenamiento__btn {
-  padding: 3rem 7rem;
+  padding: 1rem 5rem;
   background-color: #65A603;
   color: #FFF;
   border: none;
@@ -10083,6 +10083,21 @@ footer {
   margin-bottom: 20px;
 }
 
+.sectionAboutUs__title {
+  animation: aparecer_texto 1s;
+}
+
+@keyframes aparecer_texto {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .mainSection {
   background-color: #EEEEEE;
 }
@@ -10096,6 +10111,10 @@ footer {
 .mainSection__content--lugares i {
   margin-right: 10px;
   color: #65A603;
+}
+
+.sectionMainBlog {
+  background-color: #EEEEEE;
 }
 
 .SectionMainPlantilla {

@@ -6,8 +6,8 @@ h1{
 }
 
 h2{
+  @include relative-converter(font-size, rem, 30, 16);
   font-family: $Roboto;
-  font-size: $xx-large;
   font-weight: $bold;
 }
 
