@@ -18,16 +18,11 @@
 - Wireframe de las principales vistas del proyecto.
 ![](assets/img/wireframeP.png)
 
-- Vista movil
+- Vista movil.
+
 ![](assets/img/wireframeM.png)
 
 - Breve guia de estilos:
 - Colores a utilizar
 - Tipografias a utilizar
-- Identificador grafico(logotipo, isotipo)
-
-
-	![](images/gtmetrix1.png)
-
-
-- URL del sitemap: [direcciónIP/sitemap.xml](direcciónIP/sitemap.xml)
+![](assets/img/guiaEstilos.png)
