@@ -16,8 +16,10 @@
 - Personas que quieran correr por primera vez o prepararse para un objetivo mayor como una maratón. La estrategia es entregar información sobre este deporte y motivarlos para que se contacten con nosotros a través de un formulario de contacto y así obtener información sobre horarios de entrenamiento como precios de la mensualidad.
 
 - Wireframe de las principales vistas del proyecto.
+![](assets/img/wireframeP.png)
 
-![](images/gtmetrix1.png)
+- Vista movil
+![](assets/img/wireframeM.png)
 
 - Breve guia de estilos:
 - Colores a utilizar
