@@ -10117,6 +10117,20 @@ footer {
   background-color: #EEEEEE;
 }
 
+.page-link {
+  background-color: #65A603;
+  border-color: #FFF;
+}
+
+a.page-link {
+  color: #FFF;
+}
+
+.page-item.active .page-link {
+  background-color: #65A603;
+  border-color: #FFF;
+}
+
 .SectionMainPlantilla {
   background-color: #EEEEEE;
 }

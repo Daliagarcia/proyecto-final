@@ -1,3 +1,17 @@
 .sectionMainBlog{
   background-color: $hielo;
 }
+
+.page-link{
+  background-color:$green-light;
+  border-color: $white;
+}
+
+a.page-link{
+  color: $white;
+}
+
+.page-item.active .page-link{
+  background-color: $green-light;
+  border-color: $white;
+}
